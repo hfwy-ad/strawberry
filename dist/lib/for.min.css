@@ -1,0 +1,41 @@
+
+li{list-style: none;}
+a{ text-decoration: none;}
+img{ width: 100%;}
+#boxhdp{ width: 1140px; height: 308px;margin: 0 auto; margin-top: 30px; overflow: hidden; position: relative;border: 10px solid  #65318f;}
+#img>li{ width: 100%; height: 100%; float: left; text-align: center; display: none;}
+#img>.current{ display: block;}
+#lun{
+	width: 1140px;
+	height: 30px;
+	margin: 0 auto;
+	position: relative;
+}
+#li{position: absolute;
+    left: 50%;
+    bottom: 5px;
+	margin-left: -85px;
+}
+#li>li{ width: 14px;height: 14px; background-color: #ccc; border-radius: 50%; margin-right: 5px; float: left; cursor: pointer;}
+#li>.on{ background-color: #65318f;}
+#an{ display: none;}
+#an a{
+	position: absolute;
+	top: 50%;
+	margin-top: -20px;
+	width: 40px;
+	height: 40px;
+	background-color: rgba(0,0,0,.3);
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	font-family: "宋体";
+	font-weight: 600;
+	font-size: 1.2em;
+	display: none;
+}
+#an a:hover{
+	background-color: rgba(0,0,0,.8);
+}
+#an .an-a2{ right: 0;}
+ 
